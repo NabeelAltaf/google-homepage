@@ -19,6 +19,7 @@
 
             <a class = "rightTopNav" href = "#gmail">Gmail</a>
             <a class = "rightTopNav" href = "#images">Images</a>
+            <span class = "glyphicon glyphicon-th" id = "thGlyphicon"></span>
 
 
         </div>
@@ -28,12 +29,23 @@
          <img src = "images/google.png" class = "center">
 
          <!-- Search Bar -->
-        <div class = "searchBar left-inner-addon">
-
-            <span class="glyphicon glyphicon-search"></span>
+        <div class = "searchBar">
             
-         <input id = "searchbox" name= "searchbox" type= "text" size= "50">
+            <div class = "form-group has-feedback">
+                
+                <span class = "glyphicon glyphicon-search"></span>
+                <input class = "search" id = "searchbox" name= "searchbox" type= "text">
 
-            </div> 
+            </div>
+        </div> 
+
+        <!-- I'm Feeling Lucky and Google Search Buttons-->
+        <div class = "googleButtons">
+
+            <input type = "button" class = "button" value = "Google Search" />
+            <input type = "button" class = "button" value = "I'm Feeling Lucky" />
+
+        </div>
+
      </body>
 </html>

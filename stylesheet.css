@@ -55,6 +55,12 @@
     text-align: center;
 
 }
+.search {
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
 
 #searchBox {
 
@@ -63,13 +69,53 @@
     text-align: left;
     outline: none;
     border-radius: 25px;
-    border: 2px solid lightgrey;
+    border: 1px solid lightgrey;
     background: url(paper.gif);
     background-position: left top;
     background-repeat: repeat;
     width: 40%;
     height: 35px;
     margin-top: 20px;
+    box-shadow: lightgray;
+
+
+}
+
+#thGlyphicon {
+
+    float: right;
+    text-decoration: none;
+    outline: none;
+}
+
+.googleButtons {
+
+    margin-top: 25px;
+    text-align: center;
+    outline: none;
+}
+
+.button {
+
+    outline: none;
+    text-decoration: none;
+    background-color: rgb(243, 243, 243);
+    color: rgb(87, 87, 87);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    border: 0px;
+    border-radius: 5px;
+
+}
+
+.button:hover {
+
+    outline: none;
+    border: 1px solid lightgrey;
 
 
 }
