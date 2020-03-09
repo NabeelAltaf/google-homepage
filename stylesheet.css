@@ -3,7 +3,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 160px;
+    margin-top: 65px;
 
 }
 
@@ -38,16 +38,27 @@
 
 }
 
+.topnav a.leftTopNav:hover {
+
+    text-decoration: underline;
+
+}
+
 .topnav a.rightTopnav {
 
-    display: inline-block;
     text-decoration: none;
     margin-top: auto;
-    margin-left: 8px;
     color: rgb(39, 39, 39);
+    padding-top: 25px;
+    padding-right: 20px;
     float: right;
-    padding: 10px;
 
+}
+
+.topnav a.rightTopNav:hover {
+
+    text-decoration: underline;
+    
 }
 
 .searchBar {
@@ -86,7 +97,21 @@
     float: right;
     text-decoration: none;
     outline: none;
+    position: relative;
+    padding-top: 25px;
+    color: grey;
+    height: 100px;
+    padding-right: 20px;
+    font-size: 18px;
 }
+
+#thGlyphicon:hover {
+
+    color: black;
+    cursor: pointer;
+
+}
+
 
 .googleButtons {
 
@@ -107,6 +132,8 @@
     padding-left: 15px;
     margin-right: 2.5px;
     margin-left: 2.5px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
     border: 0px;
     border-radius: 5px;
 
@@ -119,3 +146,84 @@
 
 
 }
+
+
+#profilePicture {
+
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+
+}
+
+#profilePicture {
+
+    cursor: pointer;
+
+}
+
+.centerText {
+
+    text-align: center;
+    position: relative;
+    margin-top: 18px;
+    font-size: 12px;
+    color: darkblue;
+    cursor: pointer;
+
+}
+
+.footer {
+
+    position: absolute;
+    background-color: #f3f3f3;
+    height: 40px;
+    width: 100%;
+    bottom: 0%;
+    border: 1px solid rgb(202, 202, 202);
+    box-shadow: 1px darkgray;
+    display: block;
+
+}
+
+.footer a.footerLeft {
+
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    margin-top: auto;
+    float: left;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 13px;
+
+}
+
+.footer a.footerRight {
+
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    margin-top: auto;
+    float: right;
+    padding-right: 25px;
+    padding-top: 10px;
+    font-size: 13px;
+
+
+}
+
+.footer a.footerLeft:hover {
+
+    text-decoration: underline;
+
+}
+
+.footer a.footerRight:hover {
+
+    text-decoration: underline;
+
+}
+
+
